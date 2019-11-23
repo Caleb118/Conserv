@@ -1,0 +1,66 @@
+@media print {
+    .footer { display: none }
+    .test { display: none }
+    .topholder2 { visibility: hidden; }
+ }
+.footer {
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+    height: 10vh;
+    color: #FFFF;
+    text-align: center;
+    padding: 2vh;
+    font-size: 1.6vh;
+}
+.footer p {
+    color: rgb(165, 165, 165);
+    font-size: 1.4vh;
+}
+.jumbotron {
+    margin-top: 40px;
+    text-align: center;
+}
+.graph-holder {
+    margin-left: 0px;
+}
+.graph-col {
+    background-color: rgb(245, 245, 245);
+    height: 80vh;
+}
+.navbar {
+    height: 10vh;
+}
+.title {
+    font-size: 10vw;
+    text-align: right;
+    color: rgb(97, 97, 97);
+}
+.list-group { 
+    margin-right: 0; 
+
+ }
+ .test {
+     margin: 0px;
+     padding: 0px;
+ }
+ .topholder1 {
+    margin-top: 10px;
+ }
+ .topholder2 {
+     padding-right: 5vw;
+     padding-top: 5px;
+ }
+ .custom-tooltip {
+     background-color: rgb(99, 99, 99);
+     border-radius: 8px;
+     padding: 5px;
+     color: #FFF;
+ }
+ .link {
+    cursor: pointer;
+ }
+ .chart-container {
+    opacity: 1;
+    transition: opacity 0.3s
+ }
+ 
